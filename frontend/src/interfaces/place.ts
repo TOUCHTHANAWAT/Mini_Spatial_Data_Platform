@@ -7,10 +7,17 @@ export interface Feature {
   };
   properties: {
     name: string;
+    category: string;
   };
 }
 
 export interface FeatureCollection {
   type: "FeatureCollection";
   features: Feature[];
+}
+
+export interface Category {
+  value: string;
+  label: string;
+  color: string;
 }

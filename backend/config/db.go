@@ -7,12 +7,29 @@ import (
 
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/bson"
 )
 
 var DB *mongo.Database
 
+func createIndexes() {
+	collection := DB.Collection("places")
+
+	indexModel := mongo.IndexModel{
+		Keys: bson.D{
+			{Key: "location", Value: "2dsphere"},
+		},
+	}
+
+	_, err := collection.Indexes().CreateOne(context.Background(), indexModel)
+	if err != nil {
+		log.Fatal("failed to create index:", err)
+	}
+
+	log.Println("2dsphere index created ")
+}
+
 func InitDB() {
-	// 👇 ใช้ localhost ตามที่คุณต้องการ
 	uri := "mongodb://localhost:27017"
 
 	client, err := mongo.NewClient(options.Client().ApplyURI(uri))
@@ -36,6 +53,7 @@ func InitDB() {
 	}
 
 	DB = client.Database("spatial_db")
+	createIndexes()
 
-	log.Println("MongoDB connected (localhost) 🚀")
+	log.Println("MongoDB connected (localhost) ")
 }

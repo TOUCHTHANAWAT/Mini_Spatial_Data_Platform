@@ -18,4 +18,14 @@ func InitRoutes(e *echo.Echo) {
 	api.GET("/collections", placeController.Collections)
 	api.GET("/collections/places/items", placeController.GetFeatures)
 	api.POST("/collections/places/items", placeController.CreateFeature)
+	api.PATCH("/collections/places/items/:id", placeController.UpdateFeature)
+	api.DELETE("/collections/places/items/:id", placeController.DeleteFeature)
+
+	api.POST("/collections/places/within", placeController.FindWithin)
+
+	categoryRepo := repositories.CategoryRepository{}
+	categoryService := services.CategoryService{Repo: categoryRepo}
+	categoryController := controllers.CategoryController{Service: categoryService}
+
+	api.GET("/categories", categoryController.GetAll)
 }
