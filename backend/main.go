@@ -3,13 +3,32 @@ package main
 import (
 	"github.com/TOUCHTHANAWAT/Mini_Spatial_Data_Platform/config"
 	"github.com/TOUCHTHANAWAT/Mini_Spatial_Data_Platform/routes"
+	"github.com/TOUCHTHANAWAT/Mini_Spatial_Data_Platform/seed"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	"go.mongodb.org/mongo-driver/bson"
+
+	"context"
 )
 
 func main() {
 	config.InitDB()
+
+	collection := config.DB.Collection("places")
+
+	count, _ := collection.CountDocuments(context.Background(), bson.M{})
+	if count == 0 {
+		seed.ImportGeoJSON()
+		seed.CreateIndex()
+	}
+
+	catCollection := config.DB.Collection("categories")
+
+	countCat, _ := catCollection.CountDocuments(context.Background(), bson.M{})
+	if countCat == 0 {
+		seed.SeedCategories()
+	}
 
 	e := echo.New()
 	e.Use(middleware.CORS())

@@ -1,0 +1,1453 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-21T16:07:35Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340033055",
+        "addr:city": "บางกอกน้อย",
+        "addr:postcode": "10700",
+        "addr:street": "อิสรภาพ 44",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลธนบุรี",
+        "name:en": "Thonburi Hospital",
+        "name:th": "โรงพยาบาลธนบุรี",
+        "operator": "Thonburi Hospital Group",
+        "operator:type": "private",
+        "wikidata": "Q59206965",
+        "wikimedia_commons": "Category:Thonburi Hospital",
+        "wikipedia": "en:Thonburi Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.480116,
+          13.7529428
+        ]
+      },
+      "id": "node/340033055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/340033080",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4789514,
+          13.7554064
+        ]
+      },
+      "id": "node/340033080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1402895609",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลมงกุฎวัฒนะ",
+        "name:en": "Mongkutwattana General Hospital",
+        "operator:type": "private",
+        "source": "Bing;sign",
+        "website": "http://www.mongkutwattana.co.th/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5616676,
+          13.8939018
+        ]
+      },
+      "id": "node/1402895609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1645930798",
+        "alt_name": "โรงพยาบาลชลประทาน",
+        "alt_name:en": "Royal Irrigation Department Hospital",
+        "alt_name:th": "โรงพยาบาลชลประทาน",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare:speciality": "teach",
+        "name": "ศูนย์การแพทย์ปัญญานันทภิกขุ ชลประทาน มหาวิทยาลัยศรีนครินทรวิโรฒ",
+        "name:en": "Panyananthaphikkhu Chonprathan Medical Center",
+        "name:th": "ศูนย์การแพทย์ปัญญานันทภิกขุ ชลประทาน มหาวิทยาลัยศรีนครินทรวิโรฒ",
+        "phone": "025022345",
+        "website": "http://pcmc.swu.ac.th/",
+        "wikidata": "Q13021490",
+        "wikimedia_commons": "Category:Panyananthaphikkhu Chonprathan Medical Center",
+        "wikipedia": "th:ศูนย์การแพทย์ปัญญานันทภิกขุ ชลประทาน มหาวิทยาลัยศรีนครินทรวิโรฒ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5020172,
+          13.8999118
+        ]
+      },
+      "id": "node/1645930798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1797189361",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name:en": "Public Health Center 11",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5396756,
+          13.792343
+        ]
+      },
+      "id": "node/1797189361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1872414783",
+        "amenity": "hospital",
+        "name": "สถานีกาชาดที่ 11 วิเศษนิยม"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4356835,
+          13.7125212
+        ]
+      },
+      "id": "node/1872414783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2068143964",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "level": "1",
+        "name": "Prodenta Dental Clinic",
+        "number zone": "C208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6110973,
+          13.8343627
+        ]
+      },
+      "id": "node/2068143964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2068143965",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "level": "1",
+        "name": "Kudos By Tarakorn",
+        "number zone": "C207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6110893,
+          13.8343093
+        ]
+      },
+      "id": "node/2068143965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2068143969",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "image": "http://farm9.staticflickr.com/8370/8385572217_bd5bf44914_m.jpg",
+        "level": "1",
+        "name": "Pruksa Clinic",
+        "number zone": "C209"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6110584,
+          13.834407
+        ]
+      },
+      "id": "node/2068143969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2068143976",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "level": "1",
+        "name": "S-Smart Clinic",
+        "number zone": "C210"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6110973,
+          13.8345164
+        ]
+      },
+      "id": "node/2068143976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2112412385",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "level": "3",
+        "name": "charisma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5742113,
+          13.7280179
+        ]
+      },
+      "id": "node/2112412385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391364878",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลเดชา",
+        "name:en": "Deja Hospital",
+        "name:th": "โรงพยาบาลเดชา"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5355632,
+          13.7568871
+        ]
+      },
+      "id": "node/2391364878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2440347102",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลเมโย",
+        "name:en": "Mayo Hospital",
+        "wikidata": "Q6797522",
+        "wikipedia": "en:Paolo Hospital Kaset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5738973,
+          13.8354411
+        ]
+      },
+      "id": "node/2440347102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2562622348",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "โรงพยาบาล นวมินทร์ 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7239005,
+          13.8112938
+        ]
+      },
+      "id": "node/2562622348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3040931236",
+        "addr:city": "บางขุนเทียน",
+        "addr:housenumber": "1",
+        "addr:postcode": "10150",
+        "addr:street": "พระรามที่ 2 ซอย 56",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "โรงพยาบาลนครธน",
+        "name:en": "Nakornthon Hospital",
+        "name:th": "โรงพยาบาลนครธน",
+        "phone": "02-450-9999",
+        "website": "https://www.nakornthon.com/",
+        "wikidata": "Q6960693",
+        "wikimedia_commons": "Category:Nakornthon Hospital",
+        "wikipedia": "en:Nakornthon Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4343189,
+          13.6606056
+        ]
+      },
+      "id": "node/3040931236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3364528415",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลบางพลี",
+        "name:en": "Bangplee Hospital",
+        "name:th": "โรงพยาบาลบางพลี"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7062821,
+          13.6040462
+        ]
+      },
+      "id": "node/3364528415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4270497798",
+        "addr:street": "ถนนบางกรวย-จงถนอม",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลบางกรวย",
+        "name:en": "Bang Kruai Hospital",
+        "name:th": "โรงพยาบาลบางกรวย",
+        "opening_hours": "24/7",
+        "phone": "02-4475582-3",
+        "website": "https://www.bangkruaihospital.go.th/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4722226,
+          13.8050132
+        ]
+      },
+      "id": "node/4270497798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4285828389",
+        "addr:postcode": "10250",
+        "addr:street": "อ่อนนุช90",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลสิรินธร",
+        "website": "http://www.sirindhornhosp.go.th/main/index.php"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7065976,
+          13.7176626
+        ]
+      },
+      "id": "node/4285828389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4413247389",
+        "addr:street": "ถนนท่าข้าม",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "internet_access": "wlan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4425584,
+          13.6620372
+        ]
+      },
+      "id": "node/4413247389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4414919389",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3988259,
+          13.7108224
+        ]
+      },
+      "id": "node/4414919389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4525677283",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลชุมชน นาควัชระอุทิศ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3702392,
+          13.6901194
+        ]
+      },
+      "id": "node/4525677283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4607482391",
+        "amenity": "hospital",
+        "name": "โรงพยาบาล เสรีรักษ์",
+        "name:th": "โรงพยาบาล เสรีรักษ์"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7173999,
+          13.8111264
+        ]
+      },
+      "id": "node/4607482391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4740859121",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "รพ.ตา หู คอ จมูก",
+        "name:th": "รพ.ตา หู คอ จมูก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4704126,
+          13.7878138
+        ]
+      },
+      "id": "node/4740859121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4811260814",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Home for the Blind"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6352788,
+          13.8453044
+        ]
+      },
+      "id": "node/4811260814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4866262621",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "Petcharavej Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5947191,
+          13.7428473
+        ]
+      },
+      "id": "node/4866262621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4969552121",
+        "addr:housenumber": "39/1",
+        "addr:postcode": "10900",
+        "addr:street": "ถนนรัชดาภิเษก",
+        "amenity": "hospital",
+        "name": "สถานพยาบาลแพทย์แผนจีน มหาวิทยาลัยราชภัฏจันทรเกษม"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5756447,
+          13.8189754
+        ]
+      },
+      "id": "node/4969552121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5240778121",
+        "addr:housenumber": "290",
+        "addr:postcode": "10220",
+        "addr:street": "ถนนพหลโยธิน",
+        "amenity": "hospital",
+        "email": "com@cgh.co.th",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "name:en": "Hospital central GENERAL",
+        "phone": "02 552 8777",
+        "website": "https://cgh.co.th/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6060256,
+          13.8889032
+        ]
+      },
+      "id": "node/5240778121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5261686348",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลส้ตว์ M. A. H."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.517669,
+          13.6632862
+        ]
+      },
+      "id": "node/5261686348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5565954922",
+        "addr:housenumber": "2nd floor",
+        "addr:postcode": "10110",
+        "addr:province": "กรุงเทพมหานคร",
+        "addr:street": "55 building, Sukhumvit 55",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "clinic",
+        "name": "HE Clinic for men"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5802013,
+          13.7261339
+        ]
+      },
+      "id": "node/5565954922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5611498325",
+        "addr:street": "ลาดพร้าว 69",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "คลินิกตจแพทย์",
+        "name:en": "Thachapat Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6074091,
+          13.7896637
+        ]
+      },
+      "id": "node/5611498325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5638831323",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลบางไผ่",
+        "name:en": "Bang Phai Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4650089,
+          13.7249938
+        ]
+      },
+      "id": "node/5638831323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5679154233",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Serene Hospital",
+        "operator": "Serene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6536188,
+          13.7404216
+        ]
+      },
+      "id": "node/5679154233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6557588675",
+        "addr:housenumber": "6",
+        "addr:postcode": "10110",
+        "addr:province": "กรุงเทพมหานคร",
+        "addr:street": "สุขุมวิท 49/9",
+        "amenity": "hospital",
+        "description": "MedConsult is an English and Thai-speaking General Practice clinic; our anonymous clinic offers sexual health testing and treatment. The clinic based on the ground floor (if closed, proceed to main office in Building 2, Floor 3)",
+        "email": "info@medconsultasia.com",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;sexual_health;men's_health;women's_health;internal",
+        "internet_access": "wlan",
+        "name": "Anonymous MedConsult Clinic",
+        "phone": "+662 018 7855",
+        "website": "https://www.medconsultasia.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5759328,
+          13.7366322
+        ]
+      },
+      "id": "node/6557588675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6794853004",
+        "amenity": "hospital",
+        "name": "Ratchakru Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.542245,
+          13.7775546
+        ]
+      },
+      "id": "node/6794853004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6964258385",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลเกษมราษฏร์ รัตนาธิเบศร์"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.423557,
+          13.8755191
+        ]
+      },
+      "id": "node/6964258385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051270195",
+        "addr:housenumber": "3243",
+        "addr:postcode": "10110",
+        "addr:province": "กรุงเทพมหานคร",
+        "addr:street": "ถนนพระรามที่ 4",
+        "amenity": "hospital",
+        "healthcare": "clinic",
+        "name": "Mandarin Clinic Rama 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5746292,
+          13.7159788
+        ]
+      },
+      "id": "node/7051270195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7051270196",
+        "addr:housenumber": "743/1-2",
+        "addr:postcode": "10150",
+        "addr:province": "กรุงเทพมหานคร",
+        "addr:street": "ถนนสุขสวัสดิ์",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "mandarin clinic rama 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4836161,
+          13.6880969
+        ]
+      },
+      "id": "node/7051270196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7165705587",
+        "addr:city": "สามเสนใน",
+        "addr:housenumber": "78/16",
+        "addr:postcode": "10400",
+        "addr:street": "ถนนพระรามหก",
+        "amenity": "hospital",
+        "email": "info@intimexhearing.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "physiotherapy;general",
+        "internet_access": "yes",
+        "name": "ศูนย์บริการเครื่องช่วยฟังอินทิเม็กซ์",
+        "operator": "จำหน่ายอุปกรณ์การแพทย์ ด้านเครื่องช่วยฟัง",
+        "operator:type": "public",
+        "phone": "+66 022793030",
+        "website": "https://www.intimexhearing.com/hearingaid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5385011,
+          13.7946243
+        ]
+      },
+      "id": "node/7165705587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7662726070",
+        "addr:city": "ิBangkok",
+        "addr:housenumber": "884",
+        "addr:postcode": "10260",
+        "addr:street": "สรรพาวุธ",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "โรงพยาบาลบางนากรุงเทพมหานคร",
+        "operator": "021800201",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5926741,
+          13.6797164
+        ]
+      },
+      "id": "node/7662726070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7688192009",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลรัชดา-ท่าพระ",
+        "name:en": "Ratchada-Tha Phra Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4774705,
+          13.7171235
+        ]
+      },
+      "id": "node/7688192009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7688192227",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลแพทย์ปัญญา",
+        "name:en": "Phaet Panya Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6074137,
+          13.7438623
+        ]
+      },
+      "id": "node/7688192227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856632101",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลลาดกระบัง",
+        "name:en": "Lat Krabang Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7848808,
+          13.7222822
+        ]
+      },
+      "id": "node/7856632101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667433",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลมหาชัย 2",
+        "name:en": "Maha Chai 2 Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3009969,
+          13.7072628
+        ]
+      },
+      "id": "node/7856667433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667434",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลกระทุ่มแบน 2",
+        "name:en": "Krathum Baen 2 Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3307721,
+          13.7220321
+        ]
+      },
+      "id": "node/7856667434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667475",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลเซ็ลทรัลปาร์ค",
+        "name:en": "Central Park Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7440415,
+          13.6155645
+        ]
+      },
+      "id": "node/7856667475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667476",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลเมืองสมุทรปู่เจ้าสมิงพราย",
+        "name:en": "Mueang Samut Pu Chao Saming Phrai Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.578348,
+          13.6466072
+        ]
+      },
+      "id": "node/7856667476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667478",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลบางจาก",
+        "name:en": "Bang Chak Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5400354,
+          13.6095348
+        ]
+      },
+      "id": "node/7856667478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667479",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลยุวประสาทไวทโยปถัมถ์",
+        "name:en": "Yuwaprasat Waithayopatham Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5938405,
+          13.6144774
+        ]
+      },
+      "id": "node/7856667479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667483",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลกล้วยน้ำไท",
+        "name:en": "Kluai Nam Thai Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5864751,
+          13.7150697
+        ]
+      },
+      "id": "node/7856667483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667635",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาล สินแพทย์ รามอินทรา",
+        "name:en": "Synphaet Ramindra Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6666008,
+          13.8342802
+        ]
+      },
+      "id": "node/7856667635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667636",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลฮั้วยันฮัม",
+        "name:en": "Hua Yan Ham Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6360182,
+          13.8141759
+        ]
+      },
+      "id": "node/7856667636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667637",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลสยาม",
+        "name:en": "Siam Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.596123,
+          13.8022151
+        ]
+      },
+      "id": "node/7856667637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667639",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลบุรฉัตรไชยากร",
+        "name:en": "Burachat Chaiyakon Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5516493,
+          13.7520786
+        ]
+      },
+      "id": "node/7856667639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667642",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลราช ประชาสมาสัย",
+        "name:en": "RachaSamaSai Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5375946,
+          13.6526802
+        ]
+      },
+      "id": "node/7856667642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667643",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลราษฎร์บูรณะ",
+        "name:en": "Rat Burana Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5025864,
+          13.678055
+        ]
+      },
+      "id": "node/7856667643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667644",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลกรุงธน 2",
+        "name:en": "Krung Thon 2 Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5010521,
+          13.6760534
+        ]
+      },
+      "id": "node/7856667644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667645",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลรามาสุขสวัสดิ์",
+        "name:en": "Rama Suk Sawat Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4985952,
+          13.677492
+        ]
+      },
+      "id": "node/7856667645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667646",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลบางปะกอก 1",
+        "name:en": "Bang Pakok 1 Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4989117,
+          13.6787951
+        ]
+      },
+      "id": "node/7856667646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667647",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลมิตรภาพ",
+        "name:en": "Mittraphap Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4945505,
+          13.7284992
+        ]
+      },
+      "id": "node/7856667647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667648",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "PMG Hospital",
+        "name:th": "โรงพยาบาลพีเอ็มจี"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4220763,
+          13.6517378
+        ]
+      },
+      "id": "node/7856667648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667649",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลอนันต์พัฒนา 2",
+        "name:en": "Anan Phatthana 2 Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4766494,
+          13.798235
+        ]
+      },
+      "id": "node/7856667649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667650",
+        "amenity": "hospital",
+        "name": "โรงพยาบาลบางใหญ่",
+        "name:en": "Bang Yai Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4106563,
+          13.8456898
+        ]
+      },
+      "id": "node/7856667650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667672",
+        "addr:city": "แขวงทวีวัฒนา",
+        "addr:housenumber": "23",
+        "addr:postcode": "10170",
+        "addr:street": "หมู่ 8 ถนนพุทธมณฑลสาย 4",
+        "amenity": "hospital",
+        "email": "galyains@dmh.mail.go.th",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "สถาบันกัลยาณ์ราชนครินทร์",
+        "name:en": "Galya Rajanagarindra Institute",
+        "name:th": "สถาบันกัลยาณ์ราชนครินทร์",
+        "operator": "Ministry of Health",
+        "operator:type": "government",
+        "phone": "+6624416100",
+        "start_date": "1971-09-24",
+        "website": "https://galya.go.th/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3323036,
+          13.762015
+        ]
+      },
+      "id": "node/7856667672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856667675",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลหลวงพ่อทวีศักดิ์",
+        "name:en": "Luang Pho Thawisak Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3453177,
+          13.6563448
+        ]
+      },
+      "id": "node/7856667675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8260877615",
+        "addr:city": "บางกระสอ",
+        "addr:housenumber": "48",
+        "addr:postcode": "11000",
+        "addr:street": "ถนนติวานนท์ 24",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "จิรเวชชาญไชย คลินิกการแพทย์แผนไทย"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5227527,
+          13.8659085
+        ]
+      },
+      "id": "node/8260877615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8441986661",
+        "addr:housenumber": "804",
+        "addr:postcode": "10160",
+        "addr:province": "กรุงเทพมหานคร",
+        "addr:street": "ถนนเพชรเกษม",
+        "amenity": "hospital",
+        "email": "sasirakclinic@gmail.com",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;vaccination",
+        "name": "ศศิรักษ์คลินิกเวชกรรม",
+        "phone": "02-100-4980",
+        "website": "facebook/sasirakclinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3880494,
+          13.7093097
+        ]
+      },
+      "id": "node/8441986661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8811102698",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลดับเบิลยูไอเอชอินเตอร์เนชั่นแนล",
+        "name:en": "WIH International Hospital",
+        "name:th": "โรงพยาบาลดับเบิลยูไอเอชอินเตอร์เนชั่นแนล"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6505749,
+          13.6638559
+        ]
+      },
+      "id": "node/8811102698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9583012584",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6361759,
+          13.7610564
+        ]
+      },
+      "id": "node/9583012584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9669030417",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "WellMed clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5632733,
+          13.7354404
+        ]
+      },
+      "id": "node/9669030417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9729267417",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Huachiew TCM",
+        "opening_hours": "Mo-Su 08:00-16:00",
+        "phone": "02-223-1111",
+        "website": "http://huachiewtcm.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5165921,
+          13.7501618
+        ]
+      },
+      "id": "node/9729267417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9751175395",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Bangna Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.635481,
+          13.6669429
+        ]
+      },
+      "id": "node/9751175395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9826886300",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลส่งเสริมสุขภาพตำบลวัดบางปิ้ง",
+        "name:en": "Wat Bang Ping Subdistrict Municipality Health Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.623227,
+          13.609071
+        ]
+      },
+      "id": "node/9826886300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9921659987",
+        "addr:city": "แขวงคลองกุ่ม",
+        "addr:housenumber": "700/37-38",
+        "addr:postcode": "10230",
+        "addr:street": "ถนนนวมินทร์",
+        "amenity": "hospital",
+        "clinic": "aesthetic",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dental;implantology;periodontics;prosthodontics;endodontics;general",
+        "name": "Smile Together Clinic",
+        "name:en": "Smile Together Clinic",
+        "name:th": "ทำฟัน จัดฟัน รากเทียม รามอินทรา นวมินทร์",
+        "website": "https://www.smiletogetherclinic.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6548199,
+          13.8180636
+        ]
+      },
+      "id": "node/9921659987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13505869977",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "สินแพทย์ เมดิคอล เซนเตอร์",
+        "name:en": "Synphaet Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6671478,
+          13.8335224
+        ]
+      },
+      "id": "node/13505869977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13505869978",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "โรงพยาบาลเด็ก สินแพทย์",
+        "name:en": "Synphaet Children Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6662891,
+          13.8335715
+        ]
+      },
+      "id": "node/13505869978"
+    }
+  ]
+}

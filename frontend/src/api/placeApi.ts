@@ -1,9 +1,6 @@
 import axios from "axios";
 import { Feature } from "../interfaces/place";
 
-// =====================
-// axios instance
-// =====================
 const api = axios.create({
   baseURL: "http://localhost:8080/api",
   timeout: 5000,
@@ -12,28 +9,45 @@ const api = axios.create({
   },
 });
 
-// =====================
-// Place APIs
-// =====================
 
 // GET all places
-export const getFeatures = async (): Promise<Feature[]> => {
-  const res = await api.get("/collections/places/items");
-  return res.data.features;
+export const getFeatures = async (
+  search?: string,
+  category?: string
+): Promise<Feature[]> => {
+  const res = await api.get("/collections/places/items", {
+    params: {
+      search,
+      category,
+    },
+  });
+
+  return res.data?.features ?? [];
 };
 
-// // GET by id
-// export const getPlaceById = async (id: string): Promise<Place> => {
-//   const res = await api.get(`/places/${id}`);
-//   return res.data.data;
-// };
-
-// CREATE place
+// CREATE 
 export const createFeature = async (data: any) => {
   return api.post("/collections/places/items", data);
 };
 
-// DELETE place
+// DELETE 
 export const deleteFeature = async (id: string) => {
   return api.delete(`/collections/places/items/${id}`);
+};
+//Update 
+export const updateFeature = async (id: string, data: any) => {
+  return api.patch(`/collections/places/items/${id}`, data);
+};
+
+export const getCategories = async () => {
+  const res = await api.get("/categories");
+  return res.data;
+};
+
+export const getPlacesWithin = async (polygon: any) => {
+  const res = await api.post("/collections/places/within", {
+    polygon,
+  });
+
+  return res.data?.features ?? [];
 };
