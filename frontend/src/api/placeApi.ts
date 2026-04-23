@@ -2,7 +2,8 @@ import axios from "axios";
 import { Feature } from "../interfaces/place";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/api",
+  // baseURL: "http://localhost:8080/api",
+  baseURL: import.meta.env.VITE_API_URL + "/api",
   timeout: 5000,
   headers: {
     "Content-Type": "application/json",
