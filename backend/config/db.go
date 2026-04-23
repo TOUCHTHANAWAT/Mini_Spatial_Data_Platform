@@ -3,11 +3,14 @@ package config
 import (
 	"context"
 	"log"
+	"os"
 	"time"
 
+	"github.com/joho/godotenv"
+
+	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/bson"
 )
 
 var DB *mongo.Database
@@ -30,7 +33,18 @@ func createIndexes() {
 }
 
 func InitDB() {
-	uri := "mongodb://localhost:27017"
+	_ = godotenv.Load()
+
+	uri := os.Getenv("MONGO_URI")
+	dbName := os.Getenv("DB_NAME")
+
+	if uri == "" {
+		log.Fatal("MONGO_URI is required")
+	}
+
+	if dbName == "" {
+		log.Fatal("DB_NAME is required")
+	}
 
 	client, err := mongo.NewClient(options.Client().ApplyURI(uri))
 	if err != nil {
@@ -52,8 +66,8 @@ func InitDB() {
 		log.Fatal("ping error:", err)
 	}
 
-	DB = client.Database("spatial_db")
+	DB = client.Database(dbName)
 	createIndexes()
 
-	log.Println("MongoDB connected (localhost) ")
+	log.Println("MongoDB connected")
 }
