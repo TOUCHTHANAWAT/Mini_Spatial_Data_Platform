@@ -45,5 +45,5 @@ jobs:
       - name: Push Frontend
         # run: docker push thanawatkonkham/frontend:latest
         run: |
-          docker push yourname/frontend:latest
-          docker push yourname/frontend:${{ github.sha }}
+          docker push thanawatkonkham/frontend:latest
+          docker push thanawatkonkham/frontend:${{ github.sha }}
